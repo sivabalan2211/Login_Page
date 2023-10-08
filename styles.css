@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+    padding: 0; 
+    background-image: url(back.jpg);
+}
+.login
+{
+    background: transparent;
+    border: 3px solid green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+   display: block;
+   border-radius: 25px;
+   /* height: 50%; */
+}
+#email
+{
+    display: block;
+   margin: auto;
+   width: 250px;
+   padding: 10px;
+   border-radius: 10px;
+   border-color: green;
+   
+}
+#password
+{
+    display: block;
+    width: 250px;
+    margin: auto;
+    border-color: green;
+   padding: 10px;
+   border-radius: 10px; 
+}
+.btn
+{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    background-color: seagreen;
+}
